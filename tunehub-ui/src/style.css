@@ -1,0 +1,263 @@
+                                                                                        /* welcome.css */
+body {
+    background-color: #383838; /* Dark grey background */
+    color: #ffcd31; /* Golden text color for contrast */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #484c4d; /* Slightly lighter grey for the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ff7e26; /* Orange text color */
+}
+
+a, input[type=submit] {
+    background-color: #62856d; /* Greenish background for buttons and links */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+a:hover, input[type=submit]:hover {
+    background-color: #ff7e26; /* Orange background on hover */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type=email], input[type=password], input[type=text], textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #62856d; /* Greenish border */
+}
+
+input[type=radio] {
+    margin: 0 5px;
+}
+
+
+                                                                                        /* registeration */
+
+body {
+    background-image: url('/imagess/R2.avif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto; /* Center the form */
+    width: 500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, textarea {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: calc(100% - 22px); /* Adjusted width to consider padding */
+    padding: 8px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+input[type="radio"] {
+    margin-right: 3px; /* Adjusted margin for radio buttons */
+    vertical-align: middle; /* Align radios vertically */
+}
+
+/* Adjust margin for the "M" radio button */
+input[type="radio"][value="male"] {
+    margin-left: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    margin-bottom: 4px;
+}
+
+/* Display radio buttons and labels in the same line */
+   .radio-group {
+   display: flex;
+   align-items: center;
+}
+
+.radio-group label {
+    margin-left: 10px;
+    margin-right: 15px;
+    display: flex;
+}
+ 
+                                                                            /* login */
+
+body {
+    background-image: url('/imagess/L3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 70px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.5);
+    borderradius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto; /* Center the form */
+    width: 450px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: calc(100% - 22px); /* Adjusted width to consider padding */
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* style={{ backgroundImage: 'url("/imagess/L3.jpg")', backgroundSize: 'cover', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', padding: '20px', margin: '70px', textalign: 'center'}} */
+ 
+                                                                                    /* NewSong */
+body {
+    background-image: url('/imagess/S1.avif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+    
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+     background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto; /* Center the form */
+    width: 500px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: calc(100% - 22px); /* Adjusted width to consider padding */
+    padding: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
